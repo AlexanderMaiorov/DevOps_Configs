@@ -1,17 +1,17 @@
 all:
   hosts:
     node1:
-      ansible_host: 157.230.20.0
-      ip: 157.230.20.0
-      access_ip: 157.230.20.0
+      ansible_host: 164.90.170.230
+      ip: 164.90.170.230
+      access_ip: 164.90.170.230
     node2:
-      ansible_host: 157.230.28.41
-      ip: 157.230.28.41
-      access_ip: 157.230.28.41
+      ansible_host: 164.90.170.243
+      ip: 164.90.170.243
+      access_ip: 164.90.170.243
     node3:
-      ansible_host: 157.230.25.29
-      ip: 157.230.25.29
-      access_ip: 157.230.25.29
+      ansible_host: 134.209.242.137
+      ip: 134.209.242.137
+      access_ip: 134.209.242.137
   children:
     kube_control_plane:
       hosts:
